@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 # Self-hosted Supabase
 DB_URL = os.getenv(
     "SUPABASE_DB_URL",
-    "postgresql://postgres:your-super-secret-and-long-postgres-password@db:5432/postgres",
+    "postgresql://postgres:your-super-secret-and-long-postgres-password@54.197.70.201:5432/postgres",
 )
 print(
     "DB_URL usada:",
